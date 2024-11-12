@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   createNativeStackNavigator,
   TransitionPresets,
@@ -20,7 +21,7 @@ export default function HomeScreenNavigation() {
     >
 
       <Stack.Screen name="index" component={HomeScreen} />
-      <Stack.Screen
+     <Stack.Screen
         name="chat"
         component={ChatScreen}
         screenOptions={{ presentation: "modal" }}
